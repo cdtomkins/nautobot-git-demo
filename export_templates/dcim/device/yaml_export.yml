@@ -1,8 +1,6 @@
 ---
 {% for device in queryset %}
-{% if device.status %}
-- {{ device.name }}:
+- name: {{ device.name }}
+  status: {{ device.status }}
   site: {{ device.site }}
-{% endif %}
 {% endfor %}
-...
