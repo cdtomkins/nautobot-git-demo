@@ -2,5 +2,5 @@
 {% for device in queryset %}
 - name: {{ device.name }}
   status: {{ device.status }}
-  site: {{ device.site }}
+  location: {{ device.location }}
 {% endfor %}

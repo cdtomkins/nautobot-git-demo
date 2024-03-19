@@ -4,10 +4,10 @@ _metadata:
   weight: 2000
   description: "DNS servers for region Asia - From Git"
   is_active: true
-  schema: "DNS Servers"
+  config_context_schema: "DNS Servers"
   roles:
-    - slug: "edge"
-    - slug: "distribution"
+    - name: "edge"
+    - name: "distribution"
 
 dns_servers:
   - 192.0.2.51
